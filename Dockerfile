@@ -1,4 +1,4 @@
-FROM debian:sid
+FROM ubuntu:sid
 
 RUN apt update -y \
     	&& apt upgrade -y \
